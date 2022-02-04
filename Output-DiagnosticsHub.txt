@@ -1,0 +1,18 @@
+﻿Profiling of 'CS_405_template' started.
+CS_405_template has exited.
+Profiling of 'CS_405_template' stopped.
+Symbols failed to load for ntdll.dll. Cannot find or open the PDB file.
+Symbols loaded for cs_405_template.exe from C:\Users\Cem\AppData\Local\Temp\00820111-9583-4e84-9774-16179f6110ee.PackageExtraction\TempSymCache\CS_405_template.pdb\A92FE08E4F2C4AE5BE329BD050BECD4D1\CS_405_template.pdb
+Symbols failed to load for user32.dll. Cannot find or open the PDB file.
+Symbols failed to load for kernelbase.dll. Cannot find or open the PDB file.
+Symbols failed to load for win32u.dll. Cannot find or open the PDB file.
+Symbols failed to load for dinput8.dll. Cannot find or open the PDB file.
+Symbols failed to load for xinput1_4.dll. Cannot find or open the PDB file.
+Symbols failed to load for gdi32.dll. Cannot find or open the PDB file.
+Symbols failed to load for ucrtbase.dll. Cannot find or open the PDB file.
+Symbols failed to load for gdi32full.dll. Cannot find or open the PDB file.
+Symbols failed to load for opengl32.dll. Cannot find or open the PDB file.
+Symbols failed to load for nvoglv64.dll. Cannot find or open the PDB file.
+Symbols failed to load for msvcp140.dll. Cannot find or open the PDB file.
+Symbols failed to load for vcruntime140.dll. Cannot find or open the PDB file.
+Symbols failed to load for kernel32.dll. Cannot find or open the PDB file.
