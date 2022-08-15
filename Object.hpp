@@ -327,7 +327,7 @@ GameObj3D::GameObj3D( VAO&   model, ShaderProgram& sh_prog ):shad_prog(sh_prog)
 }
 
 void GameObj3D::set_obj_data(
-	glm::mat4 projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 5000.0f),
+	glm::mat4 projection = glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 5000.0f),
 	glm::mat4 model = glm::mat4(1), 
 	glm::mat4 view = glm::mat4(1),
 	glm::vec3 ambient =  glm::vec3(0.1, 0.25, 0.2),

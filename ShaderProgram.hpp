@@ -21,7 +21,7 @@ void get_s_uv(const glm::vec3& p, float& u, float& v) {
 	u = phi / (2.0f * 3.1415f);
 	v = theta / 3.1415f;
 	u = u * 0.98 + 0.01;
-	v = v * 0.98 + 0.01;
+	v = v * 0.98 + 0.01; 
 }
 
 

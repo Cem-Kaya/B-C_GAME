@@ -70,7 +70,7 @@ void chunk::lod_update(glm::mat4 view, glm::vec3 view_pos, glm::vec3 light_pos)
 	LOD->set_view(view);		
 	LOD->set_view_pos(view_pos);
 	LOD->set_light_pos(light_pos);
-	LOD->set_perspective(glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
+	LOD->set_perspective(glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
 }
 
 void chunk::draw_lod()
@@ -98,7 +98,7 @@ void chunk::chunk_update(glm::mat4 view, glm::vec3 view_pos, glm::vec3 light_pos
 		chonky->set_view(view);		
 		chonky->set_view_pos(view_pos);
 		chonky->set_light_pos(light_pos);
-		chonky->set_perspective(glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
+		chonky->set_perspective(glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
 		//chonky->
 	}	
 }

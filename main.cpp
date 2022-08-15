@@ -136,7 +136,7 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 static void cursorPositionCallback(GLFWwindow* window, double x, double y)
 {
 	cam.Yaw = 480.0 * (	( (float)x / width))  ;       // yaw
-	cam.Pitch = 90.0 *( -2*(((float)y/1000.0f)-0.5f)    ) ; // pitch  0 da +90 1000 olduðunda -90
+	cam.Pitch = 90.0 *( -2*(((float)y/1000.0f)-0.5f)    ) ; // pitch  0 da +90 1000 olduï¿½unda -90
 
 	//cam.Pitch = -90.0*(   2*(((float)y / height)-1)     )  ; // pitch
 	//cout << "y: " << y << endl;
@@ -187,7 +187,7 @@ int main()
 	glm::vec3 ambient(0.1f, 0.9f, 1.0f);
 	float ambient_strength = 0.5f;
 	glm::mat4 projection; //projection matrix
-	projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
+	projection = glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
 	glm::vec3 light_pos = glm::vec3(0, 1000, 0);
 	glm::mat4 model(1);
 	auto view = cam.GetViewMatrix();
@@ -491,7 +491,7 @@ int main()
 		glm::vec3 ambient(0.008f, 0.9f, 1.0f);
 		float ambient_strength = 0.5f;
 		glm::mat4 projection; //projection matrix
-		projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
+		projection = glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
 		glm::vec3 light_pos = glm::vec3(0, 0, 0);
 		glm::mat4 model;
 		auto view = cam.GetViewMatrix();
@@ -510,7 +510,7 @@ int main()
 		////properties
 		ambient = glm::vec3(0.008f, 0.9f, 1.0f);
 		ambient_strength = 0.5f;
-		projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
+		projection = glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 1000.0f);
 		light_pos = sun->position();
 		model = sun->getTransform();
 		view = cam.GetViewMatrix();
@@ -543,7 +543,7 @@ int main()
 		sun->set_view(view);
 		sun->set_view_pos(cam.Position);
 		sun->set_light_pos(sun->position());
-		sun->set_perspective(glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
+		sun->set_perspective(glm::perspective(glm::radians(70.0f), 800.0f / 600.0f, 0.1f, 5000.0f));
 
 
 
@@ -681,7 +681,7 @@ int main()
 		}
 		if (my_hero->get_is_hit()) {
 			health--;
-			if(!boss){ //ekledim burayý
+			if(!boss){ //ekledim burayï¿½
 				for (int i = 0; i < enemy_list.size(); i++) {
 					if (new_world.remove_from(enemy_list[i])) {
 						delete  enemy_list.at(i);

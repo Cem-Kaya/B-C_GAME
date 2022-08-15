@@ -27,7 +27,7 @@ const float YAW = 0.0f;
 const float PITCH = -10.0f;
 const float SPEED =3.0f;
 const float SENSITIVITY = 10.0f;
-const float ZOOM = 45.0f;
+const float ZOOM = 70.0f;
 
 
 //camera class for OpenGL
@@ -89,8 +89,8 @@ public:
         Zoom -= (float)yoffset;
         if (Zoom < 1.0f)
             Zoom = 1.0f;
-        if (Zoom > 45.0f)
-            Zoom = 45.0f;
+        if (Zoom > 70.0f)
+            Zoom = 70.0f;
     }
 
 
